@@ -207,3 +207,6 @@ psql --username=freecodecamp --dbname=postgres
 ./insert_data.sh
 ./insert_data.sh
 ./insert_data.sh
+cp students.csv student_test.csv
+rm student_test.csv
+cp students.csv students_test.csv
