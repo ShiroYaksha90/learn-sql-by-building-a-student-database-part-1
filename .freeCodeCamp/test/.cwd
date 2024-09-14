@@ -18,6 +18,7 @@
 /workspace/project
 /workspace/project
 /workspace/project
+<<<<<<< HEAD
 /workspace/project
 /workspace/project
 /workspace/project
@@ -52,3 +53,5 @@
 /workspace/project
 /workspace/project
 /workspace/project
+=======
+>>>>>>> c5d0035 (Fix issues)

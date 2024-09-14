@@ -125,6 +125,7 @@ declare -p IFS
 ./insert_data.sh
 ./insert_data.sh
 ./insert_data.sh
+<<<<<<< HEAD
 ./insert_data.sh
 ./insert_data.sh
 ./insert_data.sh
@@ -271,3 +272,8 @@ __vsc_dbg_trap="$(__vsc_get_trap DEBUG)"
 [[ "$__vsc_dbg_trap" != '__vsc_preexec "$_"' && "$__vsc_dbg_trap" != '__vsc_preexec_all "$_"' ]]
 trap '__vsc_preexec_all "$_"' DEBUG
 __vsc_original_prompt_command=${PROMPT_COMMAND:-}
+=======
+git pull
+__vsc_prompt_cmd_original
+git config pull.rebase true
+>>>>>>> c5d0035 (Fix issues)
