@@ -1,5 +1,6 @@
 #!/bin/bash
 
+<<<<<<< HEAD
 # Script to insert data from courses.csv and students.csv into students database
 
 PSQL="psql -X --username=freecodecamp --dbname=students --no-align --tuples-only -c"
@@ -74,3 +75,10 @@ do
     fi
   fi
 done
+=======
+#Script to insert data from courses.csv and students.csv into students database
+
+cat courses.csv | while IFS="," read MAJOR COURSE
+do
+done
+>>>>>>> c63d3bc (Initial commit)
